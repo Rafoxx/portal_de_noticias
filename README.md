@@ -19,7 +19,7 @@ O RG News é um portal de notícias que abrange uma variedade de tópicos, inclu
 
 ## Instalação
 
-Não é necessário instalação. Basta abrir o arquivo `index.html` em um navegador web para acessar o portal de notícias.
+Não é necessário instalação. Basta abrir o arquivo `http://127.0.0.1:5500/index.html#` em um navegador web para acessar o portal de notícias.
 
 ## Como Contribuir
 
