@@ -1,0 +1,99 @@
+/* Medidas Gerais */
+* {
+    box-sizing: border-box;
+    padding: 8px;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Cabeçalho */
+body > header {
+    background-color: #d5bfbf;
+    padding: 16px;
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1 {
+    color: brown;
+    font-size: 45px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #666;
+}
+
+.container {
+    max-width: 1366px;
+    margin: 0 auto;
+}
+
+.container h2 {
+    font-size: 30px;
+}
+
+.container h3 {
+    font-size: 18px;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.articles article {
+    width: 45%;
+    margin-bottom: 20px;
+} 
+
+.articles article img {
+    height: 180px;
+}
+
+
+/*Estilo das Seções */
+
+
+#sport h2 {
+    background-color: rgb(216, 243, 216);
+    color: green;   
+}
+
+#economy h2 {
+    background-color: rgb(252, 240, 170);
+    color: goldenrod;
+}
+
+#tech h2 {
+    background-color: rgb(220, 220, 255);
+    color: blue;
+}
+
+#bem-estar h2 {
+    background-color: rgb(225, 237, 234);
+    color:rgb(4, 170, 128);
+}
+
+/* datas */
+.data {
+    color: rgb(118, 117, 114);
+}
+
